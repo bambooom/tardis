@@ -7,7 +7,7 @@ keywords: wiki, simiki, bambooom
 description: personal wiki 
 author: bambooom
 
-root: /
+root: /tardis
 source: content
 destination: docs
 themes_dir: themes
