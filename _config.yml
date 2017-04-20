@@ -9,7 +9,7 @@ author: bambooom
 
 root: /
 source: content
-destination: output
+destination: docs
 themes_dir: themes
 theme: simple2
 
@@ -33,7 +33,7 @@ category:
 
 default_ext: md
 pygents: true
-debug: true
+debug: false
 
 deploy:
   - type: git
