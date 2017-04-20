@@ -1,0 +1,41 @@
+# Document:
+# http://simiki.org/docs/configuration.html
+
+url: 
+title: Bamboo's Tardis
+keywords: wiki, simiki, bambooom
+description: personal wiki 
+author: bambooom
+
+root: /
+source: content
+destination: output
+themes_dir: themes
+theme: simple2
+
+category:
+  - name: cli
+    label: 命令行
+  - name: os
+    label: 操作系统相关
+  - name: tool
+    label: 工具/app
+  - name: database
+    label: 数据库
+  - name: frontend
+    label: 前端
+  - name: backend
+    label: 后端
+  - name: git
+    label: git
+  - name: misc
+    label: 其他
+
+default_ext: md
+pygents: true
+debug: true
+
+deploy:
+  - type: git
+    remote: origin
+    branch: master
